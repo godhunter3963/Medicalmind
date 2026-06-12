@@ -5,7 +5,7 @@ st.title("MedicalMind")
 question = st.text_input("Ask a nursing question")
 
 if question:
-st.write("You asked:", question)
-st.write("MedicalMind AI response will appear here.")
+    st.write("You asked:", question)
+    st.write("MedicalMind AI response will appear here.")
 
 
